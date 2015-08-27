@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Modelagem de Sistemas</title>
+	<link rel="stylesheet" 
+	  	  type="text/css" 
+	      href="../css/portfolio-stylesheet.css" />
+
+</head>
+<body>
+	<div id="header">
+		<h1>Modelagem de Sistemas</h1>
+		   <p><b>METROCAMP - Faculdade Integrada Metropolitana de Campinas</b><br/>
+		   Curso Superior em Tecnologia de Análise e Desenvolvimento de Sistemas<br/>
+		   Prof. Cristiano Stüpp Nunes (<a href="mailto:cristiano.nunes@metrocamp.edu.br">cristiano.nunes@metrocamp.edu.br</a>)<br/>
+		   2&ordm; semestre de 2015 &nbsp; - &nbsp; Aulas nas terças-feiras às 19h
+		   </p>
+	</div>
+	<div id="main">
+
+		<div id="sidebar">
+			<div id="sidebar-content">
+				<h2>Posts</h2>
+				<ul>
+					<li><a href="#plano">Plano da Disciplina</a></li>
+					<li><a href="#datas">Datas das Provas, Definições e Comunicações</a></li>
+					<li><a href="#porquefazermodelagem">Por que fazer a modelagem ?</a></li>
+					<li><a href="#casosdeuso">Casos de Uso</a></li>
+					<!--
+						<li><a href="#servlets">Java Servlets</a></li> 
+					-->
+				</ul>
+				<br/>
+			</div>
+		</div>
+
+		<div class="content">
+			<h2><a name="plano">Plano da Disciplina</a></h2>
+			<h3>Ementa</h3>
+			<p class="content">
+				Conceitos básicos de orientação a objetos: classe, atributos e métodos, objeto, encapsulamento, relacionamentos entre classes, herança e polimorfismo. Conceitos básicos UML. Diagramas UML: Comportamentais, Estruturais e de Interação.  Ferramentas para Modelagem Orientada a Objetos.
+			</p>
+			<p class="content">
+				Leia o plano da disciplina na íntegra acessando o arquivo <a href="http://saladeaula.metrocamp.com.br/arqs/04/001541/050503_Plano%20de%20Disciplina%20-%202015s2%20-%20Modelagem%20de%20Sistemas%20-%20ADS2.zip" target="_new">Plano de Disciplina - 2015s2 - Modelagem de Sistemas - ADS2.zip</a>
+			</p>
+		</div>
+		
+		<div class="content">
+			<h2><a name="datas">Datas das Provas, Definições e Comunicações</a></h2>
+			<h3>Datas das Provas</h3>
+			<p class="content">
+				<ul>
+				<!-- 
+					<li><b>02/Set/2015</b>: Prova Mensal 1: Abordará o conteúdo desde <a href="#jsp">JavaServer Pages (JSP)</a> até <a href="#mvc">MVC (Model-View-Controller)</a></li>
+					<li><b>30/Set/2015</b>: Prova Bimestral 1: Abordará o conteúdo desde <a href="#jsp">JavaServer Pages (JSP)</a> até <a href="#services">Design Pattern: Application Services</a></li>
+					<li><b>28/Out/2015</b>: Prova Mensal 2: Abordará o conteúdo desde <a href="#jstl">JavaServer Pages Tag Library(JSTL)</a> até <a href="#hibernate">Hibernate</a></li>
+					<li><b>25/Nov/2015</b>: Prova Bimestral 2: Abordará o conteúdo desde <a href="#jstl">JavaServer Pages Tag Library(JSTL)</a> até <a href="#jsf">JavaServer Faces (JSF)</a></li>
+					<li><b>09/Dez/2015</b>: Prova Substitutiva: Abordará o conteúdo desde <a href="#jsp">JavaServer Pages (JSP)</a> até <a href="#jsf">JavaServer Faces (JSF)</a></li>
+				 -->
+					<li><b>08/Set/2015</b>: Prova Mensal 1</li>
+					<li><b>29/Set/2015</b>: Prova Bimestral 1</li>
+					<li><b>03/Nov/2015</b>: Prova Mensal 2</li>
+					<li><b>24/Nov/2015</b>: Prova Bimestral 2</li>
+					<li><b>15/Dez/2015</b>: Prova Substitutiva</li>
+				</ul>
+			</p>
+			
+		<!-- 
+			
+			<h3>Avaliações Práticas</h3>
+			<p class="content">A cada aula o grupo deverá executar os exercícios propostos para compor a média das avaliações práticas do bimestre. Veja as fórmulas abaixo:</p>
+			<p class="content">
+				MP1 (Média das avaliações práticas do bimestre 1) = AP01 + AP02 + AP03 + ... + AP10<br/>
+				MP2 = AP11 + AP12 + AP13 + ... + AP20<br/>
+			</p>
+			<p class="content">Cada Avaliação Prática (AP) vale 1,0.</p>
+			<br/>
+			<h3>Definição dos grupos para avaliações práticas</h3>
+			<p class="content">
+				<table>
+					<tr>
+						<th>Nome do Grupo</th>
+						<th>Aluno 1</th>
+						<th>Aluno 2</th>
+						<th>Aluno 3</th>
+					</tr>
+					<tr>
+						<td>Grupo 01</td>
+						<td>João da Silva</td>
+						<td>Pedro Cardoso</td>
+						<td>Maria de Oliveira</td>
+					</tr>
+				</table>
+			</p>
+			<br/>
+			<h3>Notas das avaliações práticas do bimestre 1</h3>
+			<p class="content">
+				<table>
+					<tr>
+						<th>Nome do Grupo</th>
+						<th>AP01</th>
+						<th>AP02</th>
+						<th>AP03</th>
+						<th>AP04</th>
+						<th>AP05</th>
+						<th>AP06</th>
+						<th>AP07</th>
+						<th>AP08</th>
+						<th>AP09</th>
+						<th>AP10</th>
+						<th>MP1</th>
+					</tr>
+					<tr>
+						<td>Grupo 01</td>
+						<td class="center">-</td>
+						<td class="center">-</td>
+						<td class="center">-</td>
+						<td class="center">-</td>
+						<td class="center">-</td>
+						<td class="center">-</td>
+						<td class="center">-</td>
+						<td class="center">-</td>
+						<td class="center">-</td>
+						<td class="center">-</td>
+						<td class="center">0.0</td>
+					</tr>
+					<tr>
+						<td>Grupo 02</td>
+						<td class="center">-</td>
+						<td class="center">-</td>
+						<td class="center">-</td>
+						<td class="center">-</td>
+						<td class="center">-</td>
+						<td class="center">-</td>
+						<td class="center">-</td>
+						<td class="center">-</td>
+						<td class="center">-</td>
+						<td class="center">-</td>
+						<td class="center">0.0</td>
+					</tr>
+				</table>
+			</p>
+		-->
+			<p class="voltar-ao-topo"><a href="#">Voltar ao topo</a></p>
+		</div>
+		
+		<div class="content">
+			<h2><a name="porquefazermodelagem">Por que fazer a modelagem ?</a></h2>
+			<p class="content">
+				A modelagem é uma parte central de todas as atividades que levam à implantação de um bom software. Construímos modelos para comunicar a estrutura e o comportamento desejados do sistema. Construímos modelos para visualizar e controlar a arquitetura do sistema. Construímos modelos para compreender melhor o sistema que estamos elaborando, muitas vezes expondo oportunidades de simplificação e reaproveitamento. Construímos modelos para gerenciar os riscos.
+			</p>
+			<p class="content">Estude o conteúdo completo dessa aula no arquivo <a href="files/Por que fazer a modelagem.pdf" target="_new">Por que fazer a modelagem.pdf</a>.<p>
+			<p class="content">O conjunto de slides <a href="files/Por que fazer a modelagem (slides).pdf" target="_new">Por que fazer a modelagem (slides).pdf</a> será utilizado pelo professor como um guia para a seqüência de apresentação do conteúdo, mas o aluno também pode estudar esse documento para se preparar para a prova.<p>
+			<p class="voltar-ao-topo"><a href="#">Voltar ao topo</a></p>
+		</div>
+	
+		<div class="content">
+			<h2><a name="casosdeuso">Casos de Uso</a></h2>
+			<p class="content">
+				Um caso de uso especifica o comportamento de um sistema ou de parte de um sistema e é uma descrição de um conjunto de seqüências de ações, incluindo variantes realizadas pelo sistema para produzir um resultado observável do valor de um ator.
+			</p>
+			<p class="content">Estude o conteúdo completo dessa aula no arquivo <a href="files/Casos de Uso.pdf" target="_new">Casos de Uso.pdf</a>.<p>
+			<p class="content">Apresentação utilizada pelo professor em sala de aula: <a href="files/Casos de Uso (slides).pdf" target="_new">Casos de Uso (slides).pdf</a>.<p>
+			<p class="voltar-ao-topo"><a href="#">Voltar ao topo</a></p>
+		</div>
+	
+		<br/>
+	</div>
+	<div id="footer">
+	</div>
+</body>
+</html>
